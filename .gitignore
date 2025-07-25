@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Streamlit logs
+*.log
+
+# Python environment variables
+.env
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compiled C extensions
+*.so
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# Dataset files
+*.csv
+*.xlsx
+*.xls
+
+# Test/Temp files
+*.tmp
+*.bak
