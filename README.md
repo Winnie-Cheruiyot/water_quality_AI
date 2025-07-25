@@ -34,21 +34,21 @@ Millions of people rely on borehole water without knowing if it's safe to drink.
 ## 📦 Installation
 
 ```bash
-### Clone the repo
+## Clone the repo
 git clone https://github.com/Winnie-Cheruiyot/water_quality_AI.git
 cd water_quality_AI
 
-### (Optional) Create a virtual environment
+## (Optional) Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-### Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-### ▶️ Run the App
+## ▶️ Run the App
 streamlit run app.py
 
-### 🧪 Sample Data Columns
+## 🧪 Sample Data Columns
 - pH
 
 - Hardness
@@ -69,7 +69,7 @@ streamlit run app.py
 
 - Potability (target: 0 = not safe, 1 = safe)
 
-### 📈 Model Info
+## 📈 Model Info
 
 - Algorithm: RandomForestClassifier
 
@@ -79,7 +79,7 @@ streamlit run app.py
 
 - Output: Binary prediction (Potable / Not Potable)
 
-### 👩‍💻 Future Improvements
+## 👩‍💻 Future Improvements
 - Real-time IoT data streaming
 
 - SMS alerts and automated reporting
@@ -87,9 +87,9 @@ streamlit run app.py
 - User role management and analytics dashboard
 
 - Geo-location map view (Leaflet/Folium)
-### 🏆 Credits
+## 🏆 Credits
 Created by Winnie Cheruiyot for AI for Good / SDG 6 project:
 "Safe Water for Turkana using AI"
 
-### 🌐 License
+## 🌐 License
 - MIT License
